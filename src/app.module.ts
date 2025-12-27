@@ -23,7 +23,6 @@ import { QuestionModule } from './question/question.module';
     }),
 
     UsersModule,
-
     QuestionModule,
   ],
    controllers: [AppController],

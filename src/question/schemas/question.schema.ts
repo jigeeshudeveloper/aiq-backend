@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 
+export type QuestionDocument = Question & Document; // Mongoose Document Type
 @Schema({ 
   timestamps: true, // Adds createdAt and updatedAt automatically
   collection: 'question_bank' 
